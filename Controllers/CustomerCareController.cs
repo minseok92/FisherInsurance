@@ -5,10 +5,7 @@ public class CustomerCareController : Controller
 {
     public IActionResult Index()
     {
-        //return Ok("This is the index of the CustomerCareController");
-
-        return View();
-        
+        return Ok("This is the index of the CustomerCareController");
     }
 
     [Route("customer/claim")]
